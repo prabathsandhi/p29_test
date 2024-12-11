@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
   }
 
   login() {
-    if (this.username === 'John' && this.password === 'John') {
+    if (this.username === 'Prabath' && this.password === 'Prabath') {
       // Mock a JWT token for demonstration
       const token = 'mockJwtToken';
       if (typeof window !== 'undefined') {
