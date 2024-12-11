@@ -72,10 +72,10 @@ export class AppComponent implements OnInit {
 
     this.techStack = {
       frontend: 'Angular',
-      backend: 'Mocked Backend',
-      database: 'Mocked Database',
-      authentication: 'JWT (Mocked)',
-      infrastructure: 'Standalone Angular Application'
+      backend: 'Python',
+      database: 'MySQL',
+      authentication: 'JWT',
+      infrastructure: 'NGINX to serve frontend, Express API for backend, MySQL for database'
     };
 
     this.getChartData();
